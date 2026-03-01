@@ -6,10 +6,12 @@ import ReportDetail from './pages/ReportDetail';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Navbar from './components/Navbar';
+import MattrPopup from './components/MattrPopup';
 
 function AppLayout() {
   return (
     <>
+      <MattrPopup />
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />

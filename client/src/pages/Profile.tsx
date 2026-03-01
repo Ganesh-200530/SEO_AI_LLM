@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { User, Mail, Bell, Shield, LogOut, FileText, Zap, TrendingUp, Star, ChevronRight, Edit3, Check } from 'lucide-react';
+import { Mail, Bell, Shield, LogOut, FileText, Zap, TrendingUp, Star, ChevronRight, Edit3, Check } from 'lucide-react';
 
 function getStoredUser() {
   try {
